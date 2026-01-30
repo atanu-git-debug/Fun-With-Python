@@ -1,0 +1,14 @@
+2026-01-30 23:34:26,114 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2026-01-30 23:34:26,114 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\imata\OneDrive\Desktop\fun with python\env\Lib\site-packages\instabot\bot\bot.py
+2026-01-30 23:34:26,115 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2026-01-30 23:34:27,034 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2026-01-30 23:34:27,935 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2026-01-30 23:34:28,819 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2026-01-30 23:34:29,622 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2026-01-30 23:34:44,020 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2026-01-30 23:34:44,020 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Sorry, there was a problem with your request.","status":"fail","error_type":"unexpected_login_error"}'
+2026-01-30 23:34:44,020 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2026-01-30 23:34:44,020 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: Sorry, there was a problem with your request.
+2026-01-30 23:34:44,022 - instabot version: 0.117.0 (api) - INFO - Error type: unexpected_login_error
+2026-01-30 23:34:44,022 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2026-01-30 23:34:44,022 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
