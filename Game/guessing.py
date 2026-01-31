@@ -23,6 +23,7 @@ def get_guess_from_user():
     user = int(input("Enter a number between 1 and 10: "))
     return user
 
+# the main function
 if __name__ == "__main__":
 
     names = get_name()

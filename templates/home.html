@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5 mb-5">
+    <div class="row">
+        {% for game in games %}
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="{{ game.photo.url }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ game.name }}</h5>
+                    <p class="card-text">{{ game.description }}</p>
+                    <a href="{% url 'play' game.id %}" class="btn btn-primary">Play</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}     
+        
+    </div>
+</div>
+
+{% endblock %}
