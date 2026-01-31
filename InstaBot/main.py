@@ -11,7 +11,7 @@ bot = Bot()
 
 # Login to Instagram
 bot.login(
-    username="USER_NAMR",
+    username="USER_NAME",
     password="PASSWORD"
 )
 
