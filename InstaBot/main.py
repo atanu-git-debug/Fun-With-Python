@@ -11,8 +11,8 @@ bot = Bot()
 
 # Login to Instagram
 bot.login(
-    username="everwhat720",
-    password="atanuvk18"
+    username="USER_NAMR",
+    password="PASSWORD"
 )
 
 # to follow a user
