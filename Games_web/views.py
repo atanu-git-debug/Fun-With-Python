@@ -6,7 +6,6 @@ from games.models import Game
 
 def home(request):
     games = Game.objects.all()
-    
     context={
         'games': games
     }
