@@ -26,4 +26,5 @@ urlpatterns = [
     path('',views.home,name='home'),
     path('play/',include('games.urls')),
     path('signup/',include('authentication.urls')),
+    path('login/',include('authentication.urls')),
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
